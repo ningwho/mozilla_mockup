@@ -1,0 +1,298 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Fira Sans Light',X-LocaleSpecific-Light,'Fira Sans',X-LocaleSpecific,sans-serif;
+}
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-collapse,
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header
+ {
+    background-color: #DC412C;
+}
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 94px;
+}
+.navbar-brand img {
+    height: 46px;
+
+}
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    text-transform: uppercase;
+    border-right: 1px solid white;
+    padding: 0 20px 0 0;
+    margin: 15px;
+}
+.download-button a {
+    border-right: none;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.download-button {
+    background-color: #68A651;
+    margin-left: -16px;
+    margin-right: -26px;
+}
+
+.heart {
+    background-image: url('img/background1.png');
+    background-position: center;
+    background-size: cover;
+    height: 576px;
+    text-align: center;
+}
+
+.intro h3, .intro p {
+    color: #2762a9;
+    font-family: 'Architects Daughter',X-LocaleSpecific,sans-serif
+}
+.intro h3 {
+    text-transform: uppercase;
+    font-size: 72px;
+}
+.intro p {
+    font-size: 35px;
+    padding: 75px 50px;
+}
+.intro {
+    padding-top: 48px;
+}
+.impact, .innovations {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.innovations {
+    background-color: #3A8B8A;
+    color: white;
+}
+.col-img {
+    height: 217px;
+}
+.column h3 {
+    font-weight: 700;
+}
+.column p {
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+.column ul {
+    list-style-type: none;
+}
+.column li {
+    color: #6AA9DD;
+    text-align: left;
+    padding: 10px;
+    font-size: 21px;
+    text-decoration: underline
+}
+.icon {
+    width: 31px;
+    margin-right: 30px;
+}
+.innovations li {
+    color: white;
+}
+.mountain {
+    background-image: url('img/background2.png');
+    background-position: center;
+    background-size: cover;
+    height: 741px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.mountain img {
+    height: 150px;
+}
+.mountain h2 {
+    font-weight: 700;
+    color: white;
+    font-size: 34px;
+}
+.mountain-footer {
+    text-align: center;
+    background-color: #2D253B;
+    padding: 20px 60px;
+}
+.mountain-footer h2 {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 26px;
+}
+
+.mountain-footer a {
+    text-decoration: underline;
+    color: white;
+}
+
+.info img {
+
+    height: 100px;
+}
+
+.info {
+    text-align: center;
+    padding: 30px;
+}
+
+.info h3 {
+    font-weight: 700;
+    font-size: 22px;
+}
+.info p {
+    font-size: 15px;
+}
+
+.love {
+    height: 200px;
+    background-color: #DC412C;
+    color: white;
+    padding: 40px;
+}
+.newsletter img, .love-web {
+    float: left;
+}
+.newsletter img {
+    height: 100px;
+}
+
+
+.love-web {
+    padding-left: 30px;
+    width: 240px;
+}
+.love-web h3 {
+    margin-top: 0;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 32px;
+}
+.love-web p {
+    font-size: 19px;
+}
+.sign-up input, .sign-up button {
+    display: block;
+    width: 310px;
+    height: 43px;
+    border-radius: 5px;
+    border: 3px solid white;
+}
+
+.sign-up button {
+    height: 48px;
+    background-color: #DC412C;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.sign-up input{
+    color: grey;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+.footer img {
+    height: 31px;
+    padding-bottom: 5px;
+}
+
+.footer {
+    color: white;
+    height: 200px;
+    background: #666666;
+    padding: 40px;
+}
+.footer p {
+    padding-top: 5px;
+}
+.footer a {
+    color: #68C4D8;
+}
+.form select {
+    color: black;
+    width: 163px;
+    margin-top: 13px;
+}
+
+@media (max-width: 991px) {
+    .navbar-brand img {
+        height: 75px;
+    }
+
+    .navbar-collapse, .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+        height: 75px;
+    }
+
+    .navbar-toggle {
+        float: left;
+        height: 75px;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+    .intro h3 {
+        font-size: 58px;
+
+    }
+    .intro p{
+        padding: 0;
+    }
+
+    .intro {
+        padding: 0 20px;
+    }
+
+    .column img {
+        height: 273px;
+    }
+    .icon {
+
+        display: none;
+    }
+
+    .column li {
+        text-align: center;
+    }
+    .column ul {
+        padding-bottom: 60px;
+        margin-bottom: -10px;
+    }
+    .mountain {
+        background-position: right;
+    }
+    .info p {
+        padding: 40px;
+    }
+    .love {
+        height: 400px;
+        text-align: center;
+    }
+    .newsletter img, .love-web {
+        float: none;
+        padding: 8px;
+    }
+    .love p, .love h3 {
+        display: block;
+    }
+    .love-web, .sign-up {
+        margin: 0 auto;
+    }
+}
